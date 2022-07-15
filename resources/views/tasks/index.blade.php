@@ -33,4 +33,4 @@
                     <td>{{ $task->content }}</td>
                 </tr>
                 
-@endsection
+@endforeach
