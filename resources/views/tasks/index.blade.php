@@ -9,6 +9,7 @@
             <thead>
                 <tr>
                     <th>id</th>
+                    <th>ステータス</th>
                     <th>タスク</th>
                 </tr>
             </thead>
@@ -16,6 +17,7 @@
                 @foreach ($tasks as $task)
                 <tr>
                     <td>{{ $task->id }}</td>
+                    <td>{{ $task->status }}</td>
                     <td>{{ $task->content }}</td>
                 </tr>
                 @endforeach
